@@ -67,3 +67,39 @@ function setup();
           gracz2.setVelocity(createVector(1, 0));
           break;
                 
+      case 40:
+          gracz2.setVelocity(createVector(0, 1));
+          break;
+          
+      case 65:
+          gracz1.setVelocity(createVector(-1, 0));
+          break;
+          
+      case 87:
+          gracz1.setVelocity(createVector(0, -1));
+          break;
+          
+          
+       case 68:
+          gracz1.setVelocity(createVector(1, 0));
+          break;
+          
+          
+        case 83:
+          gracz1.setVelocity(createVector(0, 1));
+          break;
+          
+      }
+ }
+
+
+    function endGame(zwyciezca) {
+      
+      
+      noStroke();
+      textAlign(Center);
+      textSize(80);
+      fill(255);
+      text(zwyciezca, width / 2 , height / 2);
+      noLoop();
+    }
