@@ -1,0 +1,3 @@
+0.0.1 stworzenie rozmiaru mapy,dwóch różnokolorowych "węży"
+0.0.2 stworzenie reguł gry(wygrana/remis)
+1.0.0 stworzenie plików Tron.js oraz DoubleSnake.js zawierające sterowanie,warunek wygranej oraz przegranej badź remisu.
