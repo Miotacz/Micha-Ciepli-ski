@@ -4,7 +4,7 @@ const SCL = 5; // skala rozmiaru pixeli(grubosc wezy)
 var gracz1, gracz2;
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(800, 800);
 
   frameRate(10);
 
