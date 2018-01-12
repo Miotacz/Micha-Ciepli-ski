@@ -60,7 +60,7 @@ Snake.prototype.collidesWith = function(trail) {
 };
 
 /**
- * sprawdzanie czy waz przekracza "ograniczenia"
+ * sprawdzanie czy waz przekracza "ograniczenia mapy, "bandy"
  */
 Snake.prototype.collidesWithBounds = function() {
 
