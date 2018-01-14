@@ -50,7 +50,7 @@ Snake.prototype.collidesWith = function(trail) {
 
   for (var i = 0; i < trail.length; i++) {
 
-		if (trail[i].x === this.location.x && trail[i].y === this.location.y) {
+		if (trail[i].x === this.location.x && trail[i].y === this.location.y) { /* Identyczny (===) .Zwraca true jeżeli operandy( zbiór obiektów) są równe i tego samego typu.  */
 
 			return true;
 		}
