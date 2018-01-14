@@ -1,5 +1,5 @@
 
-const SCL = 5; // skala rozmiaru pixeli(grubosc wezy)
+const SCL = 5; // skala rozmiaru pixeli
 
 var gracz1, gracz2;
 
