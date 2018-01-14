@@ -1,7 +1,7 @@
 
 const SCL = 5; // skala rozmiaru pixeli
 
-var gracz1, gracz2;
+var gracz1, gracz2; // Zmienne i typy (int mozna zamienic varem)
 
 function setup() {
   createCanvas(800, 800);
