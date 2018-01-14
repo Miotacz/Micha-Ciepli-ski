@@ -13,7 +13,7 @@ function Snake(x, y, xVelocity, yVelocity, color) {
  */
 Snake.prototype.draw = function() {
 
-  noStroke();
+  noStroke(); /** Wyłącza rysowanie obrysu (kontur). Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. *//
   fill(this.color);
 
   for (var i = 0; i < this.trail.length; i++) {
