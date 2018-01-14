@@ -9,7 +9,7 @@ function Snake(x, y, xVelocity, yVelocity, color) {
 }
 
 /**
- * rysowanie sladu
+ * rysowanie sladu weza
  */
 Snake.prototype.draw = function() {
 
