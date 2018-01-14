@@ -6,7 +6,7 @@ var gracz1, gracz2;
 function setup() {
   createCanvas(800, 800);
 
-  frameRate(10);
+  frameRate(10); /* Określa liczbę klatek wyświetlanych co sekundę.  */
 
 	/* inicjacja graczy */
   gracz1 = new Snake(50 / SCL, height / 2 / SCL, 1, 0, color("#0000FF")); /* kolor niebieski*/
@@ -106,10 +106,10 @@ function keyPressed() {
  */
 function endGame(winner) {
 
-  noStroke();
+  noStroke(); /** Wyłącza rysowanie obrysu (kontur). Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. *//
   textAlign(CENTER);
   textSize(60);
-  fill(255);
+  fill(255); /** Komenda Fill () Ustawia kolor używany do wypełniania kształtów *//
   text(winner, width / 2, height / 2);
   noLoop();
 }
