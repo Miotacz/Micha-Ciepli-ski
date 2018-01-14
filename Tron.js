@@ -1,10 +1,9 @@
-
-const SCL = 5; // skala rozmiaru pixeli
+const SCL = 6; // skala rozmiaru pixeli
 
 var gracz1, gracz2; // Zmienne i typy (int mozna zamienic varem)
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(1000,800);
 
   frameRate(10); /* Określa liczbę klatek wyświetlanych co sekundę.  */
 
@@ -39,21 +38,21 @@ gracz1.draw();
 
 		// obaj gracze umieraja w tym samym czasie
 
-		endGame("Remis!");
+		endGame("Remis! Gra autorstwa Michala.C");
 	} else if (gracz1.collidesWith(gracz2.trail) ||
 		gracz1.collidesWithBounds() || gracz1.collidesWith(gracz1.trail)) {
 
 		//jesli gracz1 uderza gracza2 lub w jego bok
 		// or if player2 hits themself
 
-		endGame("Czerwony wygrywa!");
+		endGame("Czerwony wygrywa! Gra autorstwa Michala.C");
 	} else if (gracz2.collidesWith(gracz1.trail) ||
 		gracz2.collidesWithBounds() || gracz2.collidesWith(gracz2.trail)) {
 
 		//jesli gracz2 uderza gracza1 lub w jego bok
 		// lub gdy gracz1 uderza siebie nawzajem 
 
-		endGame("Niebieski wygrywa!");
+		endGame("Niebieski wygrywa! Gra autorstwa Michala.C");
 	}
 }
 
@@ -106,10 +105,10 @@ function keyPressed() {
  */
 function endGame(winner) {
 
-  noStroke(); /** Wyłącza rysowanie obrysu (kontur). Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. *//
+  noStroke(); /** Wyłącza rysowanie obrysu (kontur). Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. **/
   textAlign(CENTER);
   textSize(60);
-  fill(255); /** Komenda Fill () Ustawia kolor używany do wypełniania kształtów *//
+  fill(255); /** Komenda Fill () Ustawia kolor używany do wypełniania kształtów **/
   text(winner, width / 2, height / 2);
   noLoop();
 }
