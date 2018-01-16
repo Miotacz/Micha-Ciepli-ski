@@ -43,14 +43,13 @@ gracz1.draw();
 		gracz1.collidesWithBounds() || gracz1.collidesWith(gracz1.trail)) {
 
 		//jesli gracz1 uderza gracza2 lub w jego bok
-		// or if player2 hits themself
-
+		// lub gdy gracz2 uderza siebie 
 		endGame("Czerwony wygrywa! Gra autorstwa Michala.C");
 	} else if (gracz2.collidesWith(gracz1.trail) ||
 		gracz2.collidesWithBounds() || gracz2.collidesWith(gracz2.trail)) {
 
 		//jesli gracz2 uderza gracza1 lub w jego bok
-		// lub gdy gracz1 uderza siebie nawzajem 
+		// lub gdy gracz1 uderza siebie 
 
 		endGame("Niebieski wygrywa! Gra autorstwa Michala.C");
 	}
