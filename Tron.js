@@ -23,7 +23,7 @@ function draw() {
  */
 function handlePlayers() {
 
-	/* ulepszanie graczy */
+	/* ulepszanie(odswiezanie) graczy */
 	gracz1.update();
 	gracz2.update();
 
