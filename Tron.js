@@ -3,7 +3,7 @@ const SCL = 5; // skala rozmiaru pixeli
 var gracz1, gracz2; // Zmienne i typy (int mozna zamienic varem)
 
 function setup() {
-  createCanvas(1000,800);
+  createCanvas(1400,1000);
 
   frameRate(10); /* Określa liczbę klatek wyświetlanych co sekundę.  */
 
