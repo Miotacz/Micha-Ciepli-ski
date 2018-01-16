@@ -10,6 +10,7 @@ function setup() {
 	/* inicjacja graczy */
   gracz1 = new Snake(50 / SCL, height / 2 / SCL, 1, 0, color("#0000FF")); /* kolor niebieski*/
   gracz2 = new Snake((width - 50) / SCL, height / 2 / SCL, -1, 0, color("#FF0000"));  /* kolor czerwony*/
+	/* SCL= screen coordinate list */
 }
 
 function draw() {
