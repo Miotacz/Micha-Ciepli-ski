@@ -1,5 +1,5 @@
 0.0.1 stworzenie rozmiaru mapy,dwóch różnokolorowych "węży"
-0.0.2 stworzenie reguł gry(wygrana/remis)
-1.0.0 edytowanie i zapisanie plików Tron.js oraz DoubleSnake.js zawierające sterowanie,warunek wygranej oraz przegranej badź remisu.
-1.0.1 dodanie komentarzy w plikach gry oraz edytowanie pliku DoubleSnake.js m.in. zmiana nazwy pliku DoubleSnake.js na Snake.js 
-1.0.2 edycja rozmiaru mapy oraz drobna kosmetyka programu
+0.1.0 stworzenie reguł gry(wygrana/remis)
+0.8.0 edytowanie i zapisanie plików Tron.js oraz DoubleSnake.js zawierające sterowanie,warunek wygranej oraz przegranej badź remisu.
+1.0.0 dodanie komentarzy w plikach gry oraz edytowanie pliku DoubleSnake.js m.in. zmiana nazwy pliku DoubleSnake.js na Snake.js 
+1.0.1 edycja rozmiaru mapy oraz drobna kosmetyka programu
