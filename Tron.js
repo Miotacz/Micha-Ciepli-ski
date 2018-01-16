@@ -61,7 +61,8 @@ gracz1.draw();
  * gracz2 = UP, LEFT, DOWN, & RIGHT
  */
 function keyPressed() {
-
+/* Instrukcji wyboru SWITCH używamy, jeśli chcemy w zależności od wartości pewnego wyrażenia wykonać jeden z kilku fragmentów kodu. 
+Jest to w pewnym sensie rozszerzenie instrukcji warunkowej IF. */
   switch (keyCode) {
 
     case 37:
@@ -104,7 +105,8 @@ function keyPressed() {
  */
 function endGame(winner) {
 
-  noStroke(); /** Wyłącza rysowanie obrysu (kontur). Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. **/
+  noStroke(); /** Wyłącza rysowanie obrysu (kontur). 
+  Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. **/
   textAlign(CENTER);
   textSize(60);
   fill(255); /** Komenda Fill () Ustawia kolor używany do wypełniania kształtów **/
