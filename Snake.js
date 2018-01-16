@@ -13,7 +13,8 @@ function Snake(x, y, xVelocity, yVelocity, color) {
  **/
 Snake.prototype.draw = function() {
 
-  noStroke(); /** Wyłącza rysowanie obrysu (kontur). Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. **/
+  noStroke(); /** Wyłącza rysowanie obrysu (kontur). 
+  Jeśli zostaną wywołane zarówno noStroke (), jak i noFill (), nic nie zostanie wyświetlone na ekranie. **/
   fill(this.color);
 
   for (var i = 0; i < this.trail.length; i++) {
@@ -35,7 +36,7 @@ Snake.prototype.update = function() {
  *  stan predkosci wezy
  */
 Snake.prototype.setVelocity = function(velocity) {
-
+		 /* Math.abs = Zwraca wartość bezwzględną danej liczby. */
 	if (Math.abs(velocity.y - this.velocity.y) > 1 ||
  		Math.abs(velocity.x - this.velocity.x) > 1) //
 		return;
