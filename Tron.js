@@ -1,4 +1,4 @@
-const SCL = 6; // skala rozmiaru pixeli
+const SCL = 5; // skala rozmiaru pixeli
 
 var gracz1, gracz2; // Zmienne i typy (int mozna zamienic varem)
 
